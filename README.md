@@ -7,6 +7,7 @@ Ejemplo básico para la aplicación de tareas de registro/acceso mediante la rec
 Se ha creado para ello una tabla en SQL para gestionar el registro de usuarios, la tabla está compuesta por:
 
 id | Nombre | Email | Password
+-- | ------ | ----- | --------
 1 | Prueba | prueba@prueba.es | ****
 
 Siendo el campo "id" de tipo incremental. Las contraseñas se almacenan en la base de datos mediante un cifrado por cuatro pasos. El aspecto que presentan en el servidor es el siguiente:
