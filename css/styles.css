@@ -1,0 +1,225 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 300ms;
+}
+
+header a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header:hover{
+    background-color: rgb(104, 143, 104);
+    box-shadow: 0px 0px 4px green inset;
+}
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+/* ENLACES LOGIN Y REGISTRARSE */ 
+
+#enlaces{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#enlaces a{
+    width: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #eee;
+    color: black;
+    padding: 15px;
+    transition: all 300ms;
+    box-shadow: 0px 0px 4px gray;
+}
+
+#enlaces a:hover{
+    background-color: #333;
+    color: white;
+    box-shadow: 0px 0px 5px green inset;
+}
+
+/* LOGIN */
+
+span{
+    font-size: 20px;
+}
+
+span a{
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+span a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#login{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 40px;
+    grid-template-areas: 
+        "label-email email"
+        "label-pass pass"
+        "submit submit";
+}
+
+#login label{
+    width: 30%;
+    font-size: 25px;
+}
+
+#id_email{
+    grid-area: label-email;
+}
+
+
+#id_pass{
+    grid-area: label-pass;
+}
+
+input[type="email"]{
+    width: 70%;
+    grid-area: email;
+}
+
+input[type="password"]{
+    width: 70%;
+    grid-area: pass;
+}
+
+input[type="submit"]{
+    width: 25%;
+    grid-area: submit;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 300ms;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background-color: #333;
+    color: white;
+    box-shadow: 0px 0px 4px green inset;
+}
+
+/* REGISTRO */
+
+#registro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin-top: 40px;
+    grid-template-areas: 
+        "lg-name in-nombre"
+        "lg-email in-email"
+        "lg-pass in-pass"
+        "btn-registro btn-registro";
+}
+
+#registro label{
+    width: 30%;
+    padding: 9px;
+}
+
+#login-nombre{
+    grid-area: lg-name;
+    font-size: 25px;
+}
+
+#login-email{
+    grid-area: lg-email;
+    font-size: 25px;
+}
+
+#login-pass{
+    grid-area: lg-pass;
+    font-size: 25px;
+}
+
+#i-nombre{
+    width: 70%;
+    grid-area: in-nombre;
+    font-size: 20px;
+}
+
+#i-email{
+    width: 70%;
+    grid-area: in-email;
+    font-size: 20px;
+}
+
+#i-pass{
+    width: 70%;
+    grid-area: in-pass;
+    font-size: 20px;
+}
+
+#singup{
+    grid-area: btn-registro;
+}
+
+/* MENSAJES */
+
+.lg-exito{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#lg-correo{
+    color: blue;
+}
+
+#logout:hover{
+    color: red;
+}
+
+#error{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 25px;
+}
+
+#s-exito{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: green;
+}
