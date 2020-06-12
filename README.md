@@ -12,7 +12,7 @@ id | Nombre | Email | Password
 
 Siendo el campo "id" de tipo incremental. Las contraseñas se almacenan en la base de datos mediante un cifrado por cuatro pasos. El aspecto que presentan en el servidor es el siguiente:
 
-![Database](assets/database.PGN)
+![Database](assets/database.PNG)
 
 ### :bulb: Proceso de Registro
 
