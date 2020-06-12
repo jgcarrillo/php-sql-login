@@ -41,4 +41,4 @@ Posteriormente se puede cerrar la sesión por medio del botón *Cerrar sesión*,
 
 A continuación se puede ver un ejemplo de uso de la web. Se ha hecho un recorrido desde el registro, acceso (con error), navegación por la web así como el cierre de sesión o la persistencia de las sesiones mientras se navega por la web.
 
-![Uso](https://media.giphy.com/media/lMfdsQpPtuRdTMrbKI/giphy.gif)
+![Uso](https://media.giphy.com/media/da1SvGvPtYa5MEjeMd/giphy.gif)
